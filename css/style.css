@@ -1,21 +1,57 @@
 /* Navbar */
 
 header{
+    width: 100%;
     background-color: #3a3a3a;
 }
 
 header img{
-    height: 45px;
-    width: 45px;
+    height: 30px;
+    width: 30px;
+}
+
+header .img-logo{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+header form{
+    width: 65%;
+}
+
+header form .lupa{
+    margin-left: -5px;
 }
 
 header button{
     margin: 0px 5px;
 }
 
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+
 header #menubar{
+    width: 100%;
+    margin-left: -50px;
+    margin-bottom: -24px;
+}
+
+header #menubar ul{
     text-align: center;
-    align-items: center;
+}
+
+header #menubar li{
+    height: 40px;
+    width: 240px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: 8px;
+    padding: 0px 5px;
 }
 
 header #menubar a{
@@ -25,7 +61,7 @@ header #menubar a{
     color: #fff;
 }
 
-header #menubar a:hover{
+header #menubar li:hover{
     background-color: #1BB6D9;
 }
 
@@ -84,6 +120,10 @@ body{
 
 /* terceira seção */
 
+main .card-bar{
+    width: 80%;
+}
+
 main .vendidos{
     text-align: center;
 }
@@ -99,7 +139,7 @@ main .vendidos img{
 }
 
 main .vendidos .card{
-    margin: 5px;
+    margin: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
@@ -162,3 +202,16 @@ footer .copyright{
     display: flex;
     justify-content: center;
 }   
+
+/*Botão Voltar topo*/
+
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    border-radius: 30%;
+}
+
+#voltar-topo:hover{
+    background-color: #212121;
+}
