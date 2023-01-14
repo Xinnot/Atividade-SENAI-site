@@ -261,7 +261,7 @@ footer .copyright{
         color: #1BB6D9;
     }
     #banner-direita #texto-dir h1{
-        margin-top: 350px;
+        margin-top: 450px;
         font-size: 18px;
         color: #1BB6D9;
     }
@@ -281,7 +281,7 @@ footer .copyright{
         display: none;
     }
     .nav{
-        margin-top: 400px;
+        margin-top: 600px;
         position: relative;
     }
 }
