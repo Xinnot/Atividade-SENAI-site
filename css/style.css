@@ -215,3 +215,88 @@ footer .copyright{
 #voltar-topo:hover{
     background-color: #212121;
 }
+
+/* Página Login */
+
+#section-login {
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
+
+/* @media screen */
+
+@media screen and (max-width: 768px) {
+    #banner-esquerda{
+        padding: 0px 20px 20px;
+    }
+    #banner-direita #texto-esq, #banner-direita #texto-dir{
+        width: 100%; 
+        text-align: center; 
+        margin-top: 20px;
+        display: flex;
+        position: absolute;
+    }
+    #banner-direita #texto-esq h1{
+        padding-top: 150px;
+        font-size: 18px;
+        color: #1BB6D9;
+    }
+    #banner-direita #texto-dir h1{
+        margin-top: 350px;
+        font-size: 18px;
+        color: #1BB6D9;
+    }
+    #banner-direita #texto-esq p, #banner-direita #texto-dir p{
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    #banner-esquerda #img-esq, #banner-esquerda #img-dir{
+        width: 100%;
+        height: 380px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-top: 195px;
+        float: none;
+    }
+    #carouselExampleCaptions{
+        display: none;
+    }
+    .nav{
+        margin-top: 400px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    #banner-direita #texto-esq h1{
+        padding-top: 150px;
+        font-size: 25px;
+    }
+    #banner-direita #texto-dir h1{
+        margin-top: 150px;
+        font-size: 25px;
+    }
+    #carouselExampleCaptions{
+        width: 100%;
+        margin-top: 100px;
+    }
+}
